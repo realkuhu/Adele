@@ -1,12 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
     width: 175px;
     margin-bottom: 50px;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 #welcome {
@@ -21,6 +26,7 @@ body {
     background: linear-gradient(#E040FB 0%, #4DD0E1 100%);
     width: 100%;
     z-index: 9;
+    padding-top: 80px
 }
 
 h1 {
@@ -42,7 +48,6 @@ h2 {
     position: relative;
     text-align: center;
     vertical-align: middle;
-    padding-top: 200px;
 }
 
 #bio {
@@ -66,23 +71,23 @@ p {
 }
 
 .menu {
-    list-style: none;
+    text-align: center;
+    background-color: azure;
+    width: 100%;
     font-family: fantasy;
     position: fixed;
-    top: 10px;
-    right: 30px;
+    top: 0px;
+    margin-top: 0px;
     z-index: 10;
     cursor: pointer;
 }
 
 .links {
-    float: left;
+    display: inline;
     color: darkblue;
     font-size: 22px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
 }
 
@@ -92,4 +97,20 @@ p {
     border-width: 5px;
     border-color: blueviolet;
     background-color: aliceblue;
+}
+
+#contacts {
+    background-color: darkorchid;
+}
+
+#contacts iframe {
+    width:100%;
+}
+
+.contacts_1 h3 {
+    display: inline;
+}
+.contacts_1 a {
+    text-shadow: none !important;
+    color: deepskyblue;
 }
